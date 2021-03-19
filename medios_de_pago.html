@@ -1,187 +1,131 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- SEO -->
-        <meta name="description" content="Prendido Fuego es una empresa donde podes encontrar variedad de productos para el hogar y el jardín en Argentina">
-        <meta name="keywords" content="mPOS, Botón de pago, Código QR, espacio seguro, Tarjetas de Crédito Visa, MercadoPago, TodoPago, Tarjeta de Débito Banelco, Paypal, American Express, pagos online, pago en efectivo, billeteras electrónicas, transferencia online inmediata, débito inmediato, medios de pago electrónicos, Moni, Naranja, PlusPagos, RapiPago, Resimple, Ualá, VALEPei, xCoop, Yacaré, LemonCash, Pim, Brubank, Buhobank, Banco Itaú, Galicia Move, Rebanking, Santander, Wilobank, Red Link, Link Celular, App de Banca móvil ">
-        <meta name="author" content="Magalí Huertas">
-        <!-- Open graph -->
-        <meta property="og:locale" content="es_ES">
-        <meta property="og:type" content="website">
-        <meta property="og:title" content="Elegí el medio de pago que se adapte a vos">
-        <meta property="og:description" content="Todos los medios de pago en un solo lugar para productos de hogar y jardín">
-        <meta property="og:url" content="https://prendidofuego/medios_de_pago.com.ar">
-        <meta property="og:image" content="archivos_multimedia/logo_prendido_fuego">
-            <!-- Flavicon -->
-    <link rel="shortcut icon" href="archivos_multimedia/imagenes/favicon-16x16.png" type="image/x-ico">
-    <!--CSS BS-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <!--Link Google Fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Hanalei+Fill&family=Xanh+Mono:ital@1&display=swap"
-        rel="stylesheet">
-    <!--Link Fontawesome-->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-    <!--Estilos CSS-->
-    <link rel="stylesheet" href="css/estilo.css">
-    <title>Prendido Fuego</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- SEO -->
+<meta name="description" content="Prendido Fuego es una empresa donde podés encontrar variedad de productos para el hogar y el jardín en Argentina">
+<meta name="keywords" content="productos de hogar y jardin, grill, gazebo, calefactores, horno, parrillas, salamandras, alto rendimiento, calor envolvente, chimenea, climatizacion, cocinas a lenas, estufas a lena, homegrill, parrillas a gas, bram metal, bbq, asado, parrilla electrica, parrilla a gas portatil, parrilla argentina, parrilla chulengo, parrilla de tambor, parrilla hierro, parrilla para balcon, tambor, chulengo, parrilla y brasero, gazebo plegable, gazebo autoarmable, gazebo con mosquitero, sillas jardin plastico, sillas exterior">
+<meta name="author" content="Magalí Huertas">
+<!-- Open graph -->
+<meta property="og:locale" content="es_ES">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Productos para el hogar y el jardín">
+<meta property="og:description" content="El mejor lugar para encontrar productos de hogar y jardín">
+<meta property="og:url" content="https://prendidofuego/productos.com.ar">
+<meta property="og:image" content="archivos_multimedia/logo_prendido_fuego">
+<!-- Flavicon -->
+<link rel="shortcut icon" href="archivos_multimedia/imagenes/favicon-16x16.png" type="image/x-ico">
+<!--Link Google Fonts-->
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Hanalei+Fill&family=Xanh+Mono:ital@1&display=swap" rel="stylesheet">
+<!--Link Fontawesome-->
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<!--CSS BS-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<!--Estilos CSS-->
+<link rel="stylesheet" href="css/estilo.css">
+<title>Prendido Fuego</title>
 </head>
-
 <body>
-    <!--Menú hamburguesa-->
-    <div class="container-fluid">
-        <div class="row-col-xs-12 row-col-lg-6">
-            <header class="header">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <a href="index.html"><img src="archivos_multimedia/imagenes/logo_prendido_fuego.png"
-                            alt="logo prendido fuego"></a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation"><span
-                            class="navbar-toggler-icon"></span></button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mr-auto">
-                            <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
-                            <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
-                            <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
-                            <li class="nav-item"><a class="nav-link" href="medios_de_pago.html">Medios de Pago</a></li>
-                        </ul>
-                        <form class="form-inline my-2 my-lg-0"><input class="form-control mr-sm-2" type="text"
-                                placeholder="Buscar" aria-label="Buscar"><button class="btn btn-primary my-2 my-sm-0"
-                                type="submit">Buscar</button></form>
-                    </div>
-                </nav>
-            </header>
-            <!-- Descripción Sección Medios de Pago -->
-            <div class="alert alert-primary font-weight-normal" role="alert">
-                <p>Tu seguridad es nuestra prioridad.</p>
-                <p class="margen1"><em>Protegemos tu información personal de pago </em>para que no tengas que preocuparte.</p>
-            </div>
-            <article class="card card-body">
-                <div class="row">
-                    <div class="col-md-4">
-                        <figure>
-                            <span class="text-primary"><i class="fa fa-2x fa-truck"></i></span>
-                            <figcaption class="pt-3">
-                                <h5 class="title">Fast delivery</h5>
-                                <p>Nos encargamos de la entrega para que puedas seguir disfrutando de tu tiempo libre.
-                                    Conseguí cualquiera de nuestros productos con solo un clic desde nuestra Tienda. Tus
-                                    pedidos sin contacto. Tu salud va primero.</p>
-                            </figcaption>
-                        </figure> <!-- iconbox // -->
-                    </div><!-- col // -->
-                    <div class="col-md-4">
-                        <figure>
-                            <span class="text-primary"><i class="fa fa-2x fa-landmark"></i></span>
-                            <figcaption class="pt-3">
-                                <h5 class="title">Diseño</h5>
-                                <p>Te ayudamos a diseñar tu expacio exterior para que tu asado sea espectacular.</p>
-                            </figcaption>
-                        </figure> <!-- iconbox // -->
-                    </div><!-- col // -->
-                    <div class="col-md-4">
-                        <figure>
-                            <span class="text-primary"><i class="fa fa-2x fa-lock"></i></span>
-                            <figcaption class="pt-3">
-                                <h5 class="title">Compra segura </h5>
-                                <p>Todos tus pagos seguros, siempre. Comprá con tranquilidad. Protegemos tus operaciones
-                                    para que tus pagos online sean seguros.</p>
-                            </figcaption>
-                        </figure> <!-- iconbox // -->
-                    </div> <!-- col // -->
-                </div>
-            </article> <!-- card.// -->
-            <div class="alert alert-dark my-2" role="alert">
-                <p>MEDIOS DE PAGO</p>
-                <p>Qué formas de pago puedo utilizar para realizar mi compra?</p>
-                <ul class="margen_medios_de_pago">
-                    <li>Tarjetas de Crédito Visa</li>
-                    <li>Tarjetas de Débito de todos los Bancos adheridos a la Red de Cajeros Banelco</li>
-                    <li>MercadoPago</li>
-                    <li>Transferencia Bancaria</li>
-                    <li>Todo Pago</li>
-                    <li>Paypal</li>
-                    <li>American Express</li>
-                </ul>
-                <p>ES SEGURO PAGAR EN ESTE SITIO?</p>
-                <p>Toda información que ingreses queda automáticamente protegida por el sistema SSL que garantiza el
-                    100% de la transacción segura. Este sistema encripta los datos suministrados y evita el uso
-                    desautorizado.</p>
-            </div>
-             <!--Footer-->
-             <footer class="mainfooter my-2" role="contentinfo">
-                <div class="footerMiddle">
-                    <div class="container container-fluid">
-                        <div class="row">
-                            <div class="col-md-3 col-sm-6">
-                                <!--Columna 1-->
-                                <div class="footer-pad">
-                                    <ul class="list-unstyled"><li><a href="#">FAQs</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <!--Columna 2-->
-                                <div class="footer-pad">
-                                    <ul class="list-unstyled text-capitalize">
-                                        <li><a href="#">Políticas de Privacidad</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <!--Columna 3-->
-                                <div class="footer-pad">
-                                    <ul class="list-unstyled">
-                                        <li class="text-capitalize"> <i class="fas fa-map-marker-alt"></i> Melo 937, Vicente López</li>
-                                        <li class="text-lowercase"><i class="far fa-envelope"></i> prendidofuego@gmail.com</li>
-                                        <li><i class="fas fa-phone-alt"></i> 15 5114 7129</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <p">Seguinos</p>
-                                <ul class="social-network social-circle">
-                                    <li><a href="#" class="icoFacebook" title="Facebook"><i
-                                                class="fab fa-facebook"></i></a></li>
-                                    <li><a href="#" class="icoIG" title="Linkedin"><i class="fab fa-instagram"></i></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <!--Copyright-->
-                        <div class="row">
-                            <div class="col-md-12 copy">
-                                <p class="text-center"><small>&copy; Copyright 2021 - Magalí Huertas. All rights
-                                        reserved.</p></small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+<!--Menú hamburguesa-->
+<header class="header">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a href="index.html"><img src="archivos_multimedia/imagenes/logo_prendido_fuego.png" alt="logo prendido fuego"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+                <li class="nav-item"><a class="nav-link" href="productos.html">Productos</a></li>
+                <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                <li class="nav-item"><a class="nav-link" href="medios_de_pago.html">Medios de Pago</a></li>
+            </ul>
+            <form class="d-flex"><input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-primary" type="submit">Buscar</button>
+            </form>
+        </div>
+    </nav>
+</header>
+<!-- Descripción Sección Medios de Pago -->
+<div class="alert alert-primary font-weight-normal my-2 mx-4" role="alert">
+    <p>Tu seguridad es nuestra prioridad.</p>
+    <p><em>Protegemos tu información personal de pago </em>para que no tengas que preocuparte.</p>
+</div>
+<article class="card card-body mb-2 my-2 mx-4">
+    <div class="row">
+        <div class="col-md-4">
+            <figure>
+                <span class="text-primary"><i class="fa fa-2x fa-truck"></i></span>
+                <figcaption class="pt-3">
+                    <h5 class="title">Fast delivery</h5>
+                        <p>Nos encargamos de la entrega para que puedas seguir disfrutando de tu tiempo libre. Conseguí cualquiera de nuestros productos con solo un click desde la sección productos.</p>
+                        <p>Tus pedidos <strong>sin contacto</strong>.</p>
+                        <p><strong>Tu salud va primero</strong>.</p>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="col-md-4">
+            <figure>
+                <span class="text-primary"><i class="fa fa-2x fa-landmark"></i></span>
+                <figcaption class="pt-3">
+                    <h5 class="title">Diseño personalizado</h5>
+                        <p>Te ayudamos a diseñar tu espacio exterior para que el disfrute de tu asado sea espectacular.</p>
+                </figcaption>
+            </figure>
+        </div>
+        <div class="col-md-4">
+            <figure>
+                <span class="text-primary"><i class="fa fa-2x fa-lock"></i></span>
+                <figcaption class="pt-3">
+                    <h5 class="title">Compra segura</h5>
+                        <p>Todos tus pagos seguros, siempre. Comprá con tranquilidad. Protegemos tus operaciones para que tus pagos online sean seguros.</p>
+                </figcaption>
+            </figure>
         </div>
     </div>
-    </footer>
+</article>
+<div class="alert alert-dark mb-2 my-2 mx-4" role="alert">
+    <p>MEDIOS DE PAGO</p>
+    <p>¿Qué formas de pago puedo utilizar para realizar mi compra?</p>
+    <ul class="margen-medios-de-pago">
+        <li>Tarjetas de Crédito Visa</li>
+        <li>Tarjetas de Débito de todos los Bancos adheridos a la Red de Cajeros Banelco</li>
+        <li>MercadoPago</li>
+        <li>Transferencia Bancaria</li>
+        <li>Todo Pago</li>
+        <li>Paypal</li>
+        <li>American Express</li>
+    </ul>
+    <p>¿ES SEGURO PAGAR EN ESTE SITIO?</p>
+    <p>Toda información que ingreses queda automáticamente protegida por el sistema SSL que garantiza el 100% de la transacción de forma segura. Este sistema encripta los datos suministrados y evita el uso desautorizado.</p>
+</div>
+<!--Footer-->
+<footer class="footer">
+    <div class="container">
+        <div class="row py-4">
+            <div class="col-6 col-md-4"><ul class="list-unstyled text-capitalize"><li><a href="#">Políticas de Privacidad</a></li></ul></div>
+            <div class="col-6 col-md-4"><ul class="list-unstyled"><li><a href="#">FAQs</a></li></ul></div>
+            <div class="col-6 col-md-4">
+                <p">Seguinos</p>
+                <ul class="redes redes-sociales list-unstyled">
+                    <li><a href="#" class="icono-facebook" title="Facebook"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="#" class="icono-ig" title="IG"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
     </div>
+<div class="row">
+    <div class="col-md-12 copy">
+        <p class="text-center"><small>&copy; Copyright 2021 - Magalí Huertas. All rights reserved.</p></small>
     </div>
-    </div>
-    <!--Script BS-->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
-        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous">
-    </script>
+</div>
+</footer>
+<!--Script BS-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
 </body>
-
 </html>
